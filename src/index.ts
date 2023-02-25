@@ -1,7 +1,5 @@
-window.addEventListener("load", () => {
-  const header = document.createElement("h1");
-  header.innerText = "Hello World";
+import {launch} from './project-one'
 
-  const body = document.querySelector("body");
-  body ? body.appendChild(header) : alert("Something went wrong")
-})
+launch()
+
+
